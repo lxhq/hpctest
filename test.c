@@ -9,6 +9,7 @@ int main()
         for (i = 0; i < 1000000000; i++) {
             count++;
         }
+        printf("%d", count);
     }
 
     return 0;
